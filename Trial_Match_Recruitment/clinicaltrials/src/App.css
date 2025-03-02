@@ -1,0 +1,85 @@
+.tester-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  padding: 20px;
+  position: relative;
+}
+
+.profile-button-container {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.profile-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.logout-container {
+  margin-top: 10px;
+}
+
+.logout-button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50%;
+}
+
+.demographic-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 50%;
+  max-width: 600px;
+  text-align: left;
+  position: absolute;
+}
+
+.demographic-card h2 {
+  margin-bottom: 20px;
+}
+
+.demographic-card p {
+  margin: 10px 0;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.reject-button, .accept-button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.accept-button {
+  background-color: #28a745;
+}

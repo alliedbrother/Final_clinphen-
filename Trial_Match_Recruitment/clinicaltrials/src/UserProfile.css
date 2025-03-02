@@ -1,0 +1,81 @@
+.user-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    padding: 20px;
+    position: relative;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .profile-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    max-width: 600px;
+    text-align: left;
+  }
+  
+  .profile-card h2 {
+    margin-bottom: 20px;
+  }
+  
+  .profile-card p {
+    margin: 10px 0;
+  }
+  
+  .disease-dropdown {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .selected-diseases {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .selected-disease {
+    background-color: #e0e0e0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .remove-button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 0 5px;
+    margin-left: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .home-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }

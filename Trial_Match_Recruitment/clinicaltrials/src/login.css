@@ -1,0 +1,46 @@
+.login-page {
+    background-color: #e0f2ff; /* Light blue background */
+    padding: 20px;
+  }
+  
+  .login-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .login-card h2 {
+    margin-bottom: 20px;
+    color: #1e3a8a; /* Dark blue color */
+  }
+  
+  .login-card input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .login-card button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .login-card .back-button {
+    margin-top: 20px;
+    text-align: center;
+    color: #007bff;
+    cursor: pointer;
+  }
+  
+  .login-card .back-button:hover {
+    text-decoration: underline;
+  }

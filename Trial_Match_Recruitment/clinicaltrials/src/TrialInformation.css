@@ -1,0 +1,130 @@
+.trial-information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    background-color: #f0f0f0;
+    padding: 20px;
+    position: relative;
+    overflow-y: auto;
+  }
+  
+  .home-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .left-side, .right-side {
+    width: 45%;
+  }
+  
+  .subtitle {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .trial-card, .test-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .trial-card h2, .test-card h3 {
+    margin-bottom: 20px;
+  }
+  
+  .trial-card p, .test-card p {
+    margin: 10px 0;
+  }
+  
+  .create-test-button, .add-button, .close-button, .remove-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .remove-button {
+    background-color: #dc3545;
+  }
+  
+  .popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .popup-inner {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    max-width: 600px;
+    text-align: left;
+  }
+  
+  .popup-inner h2 {
+    margin-bottom: 20px;
+  }
+  
+  .popup-inner input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .test-list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .test-card-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .test-card-content h3, .test-card-content p {
+    margin: 0 10px;
+  }
