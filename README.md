@@ -11,7 +11,7 @@
 - **Instant Notifications:** When both a user and an organization swipe right, they are notified for further communication.
 
 ## Diagnosis Output
-
+![Image](https://github.com/user-attachments/assets/93956947-8e62-4034-b4b2-354bef4bcdd0)
 
 ## Tech Stack
 - **Frontend:** React.js (for the swiping interface)
