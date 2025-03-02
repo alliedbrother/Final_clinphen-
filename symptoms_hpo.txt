@@ -1,3 +1,2 @@
 HPO ID	Phenotype name	No. occurrences	Earliness (lower = earlier)	Example sentence
-HP:0001945	Fever	1	0	i have serious head ache along with fever and pain in my limbs 
-HP:0009763	Limb pain	1	1	i have serious head ache along with fever and pain in my limbs 
+HP:0000230	Gingivitis	1	0	gingivitis

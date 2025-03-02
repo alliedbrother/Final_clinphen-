@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Diagnosis Results</title>
+</head>
+<body>
+  <h2>Diagnosis Results</h2>
+  <p>You entered symptoms: {{ symptoms }}</p>
+  <hr>
+  <h3>Possible Diseases</h3>
+  <ul>
+    {% for disease in results %}
+      <li>{{ disease[0] }} (score: {{ disease[1] }})</li>
+    {% endfor %}
+  </ul>
+  <br>
+  <a href="{{ url_for('diagnose') }}">Back to Diagnose</a> | 
+  <a href="{{ url_for('logout') }}">Logout</a>
+</body>
+</html>

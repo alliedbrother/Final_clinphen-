@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Diagnose</title>
+</head>
+<body>
+  <h2>Enter your symptoms</h2>
+  <form method="POST" action="{{ url_for('diagnose') }}">
+    <textarea name="symptoms" rows="5" cols="40" placeholder="e.g. fever, cough, fatigue"></textarea>
+    <br><br>
+    <input type="submit" value="Diagnose">
+  </form>
+  <br>
+  <a href="{{ url_for('logout') }}">Logout</a>
+</body>
+</html>

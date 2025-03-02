@@ -16,7 +16,7 @@ def load_hpo_terms(symptoms_sentence):
 
 
     command_to_run = "clinphen " 
-    input_file = "/Users/saiakhil/Documents/clin/" + filename
+    input_file = "./" + filename
     output_filename = "symptoms_hpo.txt"
 
     run_command(command_to_run,input_file,output_filename)
