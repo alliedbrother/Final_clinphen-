@@ -10,6 +10,9 @@
 - **Rare Disease Identification:** Assists niche clinical trials in recruiting participants by identifying rare conditions.
 - **Instant Notifications:** When both a user and an organization swipe right, they are notified for further communication.
 
+## Diagnosis Output
+
+
 ## Tech Stack
 - **Frontend:** React.js (for the swiping interface)
 - **Backend:** Node.js with Express.js
